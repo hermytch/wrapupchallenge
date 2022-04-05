@@ -11,6 +11,9 @@
 		3FAE370627FC88EF00CBE1CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAE370527FC88EF00CBE1CB /* ContentView.swift */; };
 		3FAE370827FC88F000CBE1CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FAE370727FC88F000CBE1CB /* Assets.xcassets */; };
 		3FAE370B27FC88F000CBE1CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FAE370A27FC88F000CBE1CB /* Preview Assets.xcassets */; };
+		3FAE371227FC89F200CBE1CB /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAE371127FC89F200CBE1CB /* ContentModel.swift */; };
+		3FAE371427FC8A0600CBE1CB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAE371327FC8A0600CBE1CB /* Model.swift */; };
+		3FAE371627FC8EB800CBE1CB /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAE371527FC8EB800CBE1CB /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		3FAE370527FC88EF00CBE1CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3FAE370727FC88F000CBE1CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FAE370A27FC88F000CBE1CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3FAE371127FC89F200CBE1CB /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
+		3FAE371327FC8A0600CBE1CB /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		3FAE371527FC8EB800CBE1CB /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				3FAE370327FC88EF00CBE1CB /* WrapUpChallengeApp.swift */,
 				3FAE370527FC88EF00CBE1CB /* ContentView.swift */,
+				3FAE371527FC8EB800CBE1CB /* DetailView.swift */,
+				3FAE371127FC89F200CBE1CB /* ContentModel.swift */,
+				3FAE371327FC8A0600CBE1CB /* Model.swift */,
 				3FAE370727FC88F000CBE1CB /* Assets.xcassets */,
 				3FAE370927FC88F000CBE1CB /* Preview Content */,
 			);
@@ -139,6 +148,9 @@
 			files = (
 				3FAE370627FC88EF00CBE1CB /* ContentView.swift in Sources */,
 				3FAE370427FC88EF00CBE1CB /* WrapUpChallengeApp.swift in Sources */,
+				3FAE371227FC89F200CBE1CB /* ContentModel.swift in Sources */,
+				3FAE371627FC8EB800CBE1CB /* DetailView.swift in Sources */,
+				3FAE371427FC8A0600CBE1CB /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

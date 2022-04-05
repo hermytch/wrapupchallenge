@@ -8,14 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var model:ContentModel
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView{
+            
+                List(model.pages){ page in
+                    NavigationLink(destination: DetailView(page: page), label: {Text(page.title)})
+                    
+                    
+                }.navigationBarTitle("All Videos")
+                    
+               
+        }
+        }
     }
-}
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+
+//struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ContentView()
+//    }
+//}
